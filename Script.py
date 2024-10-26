@@ -1,38 +1,36 @@
 class script(object):
-    START_TXT = """👋🏻 Hᴇʟʟᴏ {}.
-𝖨𝗆 𝖺𝗇 𝖺𝗎𝗍𝗈 𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍 𝗐𝗁𝗂𝖼𝗁 𝖼𝖺𝗇 𝗉𝗋𝗈𝗏𝗂𝖽𝖾 𝗆𝗈𝗏𝗂𝖾𝗌 𝗂𝗇 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉𝗌. 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖺𝗇𝖽 𝗉𝗋𝗈𝗆𝗈𝗍𝖾 𝗆𝖾 𝖺𝗌 𝖺𝖽𝗆𝗂𝗇 𝗍𝗈 𝗅𝖾𝗍 𝗆𝖾 𝗀𝖾𝗍 𝗂𝗇 𝖺𝖼𝗍𝗂𝗈𝗇.
-𝖢𝗅𝗂𝖼𝗄 𝗈𝗇 𝗍𝗁𝖾 𝖧𝖾𝗅𝗉 𝖻𝗎𝗍𝗍𝗈𝗇 𝖿𝗈𝗋 𝖬𝗈𝗋𝖾...
+    START_TXT = """👋🏻 ʜᴇʟʟᴏ ᴛʜᴇʀᴇ {}.
+ɪ ᴀᴍ ʜᴇʀᴇ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ʙᴏᴏᴋꜱ ɪɴ ᴠᴀʀɪᴏᴜꜱ ꜰᴏʀᴍᴀᴛꜱ ᴀꜱ ꜱᴏᴏɴ ᴀꜱ ᴍᴇᴍʙᴇʀꜱ ᴍᴀᴋᴇ ᴛʜᴇɪʀ ʀᴇQᴜᴇꜱᴛꜱ.\n\nᴡᴀɴᴛ ᴍʏ ʜᴇʟᴘ ɪɴ ᴀ ɢʀᴏᴜᴘ? ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ, <i>ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴛᴏ ᴀᴅᴍɪɴ</i>, ᴀɴᴅ ᴡᴀᴛᴄʜ ᴍᴇ ʜᴀɴᴅʟᴇ ʙᴏᴏᴋ ʀᴇQᴜᴇꜱᴛꜱ ᴅɪʀᴇᴄᴛʟʏ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ.\n\nʟᴇᴛ’ꜱ ᴍᴀᴋᴇ ʀᴇᴀᴅɪɴɢ ᴇᴀꜱɪᴇʀ ᴀɴᴅ ᴍᴏʀᴇ ꜰᴜɴ ᴛᴏɢᴇᴛʜᴇʀ!
 
-©️ Maintained By @im_goutham_josh"""
+©️ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @infohub_updates"""
     HELP_TXT = """
-    🙋🏻‍♂️   Hellooo  {} 🤓
+    🙋🏻‍♂️   ʜᴇʟʟᴏ ᴛʜᴇʀᴇ  {} 🤓
 
-○ Available Commands
+○ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ
      
- /start - Check I'm Alive..
- /status - Bot Status
- /info - User info 
- /id - User id
- /stats - Db status  
- /broadcast - Broadcast (owner only)
+ /start - ᴄʜᴇᴄᴋ ɪꜰ ɪ'ᴍ ᴀʟɪᴠᴇ
+ /status - ᴍʏ ᴄᴜʀʀᴇɴᴛ ꜱᴛᴀᴛᴜꜱ
+ /info - ɢᴇᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴏᴍᴇᴏɴᴇ
+ /id - ʏᴏᴜʀ ᴅᴇᴛᴀɪʟꜱ
+ /stats - ᴅᴀᴛᴀʙᴀꜱᴇ'ꜱ ᴄᴜʀʀᴇɴᴛ ꜱᴛᴀᴛᴜꜱ
+ /broadcast - ʙʀᴏᴀᴅᴄᴀꜱᴛ ꜱᴏᴍᴇᴛʜɪɴɢ (ᴏᴡɴᴇʀ ᴏɴʟʏ)
 
-○ Notice 📙:-
 
-○ Dont Spam Me...🙂
+○ ᴘʟᴇᴀꜱᴇ ᴅᴏ ɴᴏᴛ ꜱᴘᴀᴍ ᴍᴇ 🙂
+○ ᴜꜱᴇ ᴍᴇ ʀᴇꜱᴘᴏɴꜱɪʙʟʏ 🎀
 """
-    ABOUT_TXT = """<b>◎ Nᴀᴍᴇ: ᴋᴜᴛᴛᴜ ʙᴏᴛ™
-◎ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/wudixh13>Goutham SER</a>
+    ABOUT_TXT = """<b>◎ Nᴀᴍᴇ: 𝕐𝕠𝕦𝕣 𝔹𝕠𝕠𝕜𝕤
+◎ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/infohubupdates>ɪɴꜰᴏʜᴜʙ ᴜᴘᴅᴀᴛᴇꜱ</a>
 ◎ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
 ◎ Dᴀᴛᴀ Bᴀsᴇ: Mᴏɴɢᴏ DB
-◎ Bᴏᴛ Sᴇʀᴠᴇʀ: KoYeb</b>"""
+◎ Bᴏᴛ Sᴇʀᴠᴇʀ: ʜᴇʀᴏᴋᴜ</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
-- ᴋᴜᴛᴛᴜ ʙᴏᴛ™ is a open source project. 
-- Source - <ahref=https://github.com/GouthamSER>Click Here😂</a>
+- 𝕐𝕠𝕦𝕣 𝔹𝕠𝕠𝕜𝕤 ɪꜱ ɴᴏᴛ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ. 
 
 <b>DEVS:</b>
-- <a href=https://t.me/wudixh1>Gᴏᴜᴛʜᴀᴍ Sᴇʀ🌈</a>"""
+- <a href=https://t.me/infohub_updates>ɪɴꜰᴏʜᴜʙ ᴜᴘᴅᴀᴛᴇꜱ🌈</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
-- Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and the bot will respond whenever a keyword is matched
 <b>NOTE:</b>
 1. This Bot should have admin privillage.
 2. only admins can add filters in a chat.
@@ -45,15 +43,15 @@ class script(object):
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Eva Maria Supports both url and alert inline buttons.
+- This bot supports both url and alert inline buttons.
 
 <b>NOTE:</b>
-1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. This Botsupports buttons with any telegram media type.
+1. Telegram will not allow you to send buttons without any content, so content is mandatory.
+2. This Bot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/sources_cods)</code>
+<code>[Button Text](buttonurl:https://t.me/infohub_updates)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -61,7 +59,7 @@ class script(object):
 
 <b>NOTE:</b>
 1. Make me the admin of your channel if it's private.
-2. make sure that your channel does not contains camrips, porn and fake files.
+2. make sure that your channel does not contain porn and/or fake files.
 3. Forward the last message to me with quotes.
  I'll add all the files in that channel to my db."""
     CONNECTION_TXT = """Help: <b>Connections</b>
@@ -85,8 +83,7 @@ these are the extra features of Eva Maria
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
 • /info  - <code>get information about a user.</code>
-• /imdb  - <code>get the film information from IMDb source.</code>
-• /search  - <code>get the film information from various sources.</code>"""
+"""
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
 <b>NOTE:</b>
@@ -114,20 +111,20 @@ Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 """
-    RESULT_TXT="""Eᴅᴀᴀ Mᴏɴᴇʜ I Fᴏᴜɴᴅ Iɴ Mʏ Dʙ Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {}"""
+    RESULT_TXT="""ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴꜱ! 🎉🎉 ᴛʜɪꜱ ᴀʀᴇ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰʀᴏᴍ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ ᴛʜᴀᴛ ᴍᴀᴛᴄʜ ʏᴏᴜʀ QᴜᴇʀʏEᴅᴀᴀ Mᴏɴᴇʜ I Fᴏᴜɴᴅ Iɴ Mʏ Dʙ Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {}"""
 
     CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 FɪʟᴇSɪᴢᴇ : {file_size}
 
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/wudixh> ᴇʟᴅᴏʀᴀᴅᴏ </a>
+▫️<a href=https://t.me/Bookslibraryofficial> Pages & Voices </a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
 
     
     RESTART_TXT = """
 <b>𝖡𝗈𝗍 𝖱𝖾𝗌𝗍𝖺𝗋𝗍𝖾𝖽 !</b>
-Kuttu Bot
-**@im_goutham_josh**
+𝕐𝕠𝕦𝕣 𝔹𝕠𝕠𝕜𝕤
+**@readbooks_robot**
 
 📅 𝖣𝖺𝗍𝖾 : <code>{}</code>
 ⏰ 𝖳𝗂𝗆𝖾 : <code>{}</code>
@@ -145,13 +142,13 @@ Try reading the instruction below 👇🏼
 #SPELL CHECK LANGUAGES TO KNOW callback
     ENG_SPELL="""Please Note Below📓
 1️⃣Ask in Correct Spelling
-2️⃣Don't ask Movies which are not Realased on OTT PLATFORMS
-3️⃣Possible  ASK [movie name langauge] like this or [movie year]
+2️⃣Don't ask Books which are not Realased yet
+
     """
     MAL_SPELL="""ദയവായി താഴെ ശ്രദ്ധിക്കുക📓
 1️⃣ശരിയായ അക്ഷരവിന്യാസത്തിൽ ചോദിക്കുക
 2️⃣OTT പ്ലാറ്റ്‌ഫോമുകളിൽ റിലീസ് ചെയ്യാത്ത സിനിമകൾ ചോദിക്കരുത്
-3️⃣ഇത് പോലെ [സിനിമയുടെ പേര് ഭാഷ] അല്ലെങ്കിൽ [സിനിമ വർഷം] ചോദിക്കാം
+
     """
     HIN_SPELL="""कृपया नीचे ध्यान दें📓
 1️⃣सही वर्तनी में पूछें
@@ -164,12 +161,12 @@ Try reading the instruction below 👇🏼
 3️⃣இந்த வடிவத்தில் கேளுங்கள் [திரைப்படத்தின் பெயர், ஆண்டு]
     """
 
-    CHK_MOV_ALRT="""♻️ Eᴅᴀᴀ Mᴏɴᴇʜ ᴄʜᴇᴄᴋɪɴɢ ꜰɪʟᴇ ᴏɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ... ♻️"""
+    CHK_MOV_ALRT="""♻️ ᴄʜᴇᴄᴋɪɴɢ ꜰɪʟᴇ ᴏɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ... ♻️"""
     
-    OLD_MES=""" Eᴅᴀᴀ Mᴏɴᴇʜ 𝐘𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐨𝐧𝐞 𝐨𝐟 𝐦𝐲 𝐨𝐥𝐝 𝐦𝐞𝐬𝐬𝐚𝐠𝐞𝐬🤔, 𝐩𝐥𝐞𝐚𝐬𝐞 𝐬𝐞𝐧𝐝 𝐭𝐡𝐞 𝐫𝐞𝐪𝐮𝐞𝐬𝐭 𝐚𝐠𝐚𝐢𝐧"""
+    OLD_MES=""" 𝐘𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐨𝐧𝐞 𝐨𝐟 𝐦𝐲 𝐨𝐥𝐝 𝐦𝐞𝐬𝐬𝐚𝐠𝐞𝐬🤔, 𝐩𝐥𝐞𝐚𝐬𝐞 𝐬𝐞𝐧𝐝 𝐭𝐡𝐞 𝐫𝐞𝐪𝐮𝐞𝐬𝐭 𝐚𝐠𝐚𝐢𝐧"""
     
-    MOV_NT_FND="""<b>Eᴅᴀᴀ Mᴏɴᴇʜ Tʜɪs Mᴏᴠɪᴇ Is Nᴏᴛ Yᴇᴛ Rᴇᴀʟᴇsᴇᴅ Oʀ Aᴅᴅᴇᴅ Tᴏ DB</b>
-Report To ADMIN - @im_goutham_josh
+    MOV_NT_FND="""<b> Tʜɪs ʙᴏᴏᴋ Is Nᴏᴛ Yᴇᴛ Rᴇᴀʟᴇsᴇᴅ Oʀ Aᴅᴅᴇᴅ Tᴏ DB</b>
+Report To ADMIN - @infohubsupport_robot
 """
     RESTART_GC_TXT = """
 <b><u>𝖡𝗈𝗍 𝖱𝖾𝗌𝗍𝖺𝗋𝗍𝖾𝖽 ✅</u></b>"""
